@@ -1,0 +1,10 @@
+#!/home/surfas/codeheroku/venv/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'djangocms-installer==0.3.5','console_scripts','djangocms'
+__requires__ = 'djangocms-installer==0.3.5'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('djangocms-installer==0.3.5', 'console_scripts', 'djangocms')()
+    )
